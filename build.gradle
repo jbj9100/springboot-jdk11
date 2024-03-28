@@ -16,9 +16,6 @@ repositories {
 
 jar {
 	enabled=false
-	manifest {
-		attributes 'Main-Class': 'hello.hellospring.HelloSpringApplication'
-	}
 }
 
 dependencies {
